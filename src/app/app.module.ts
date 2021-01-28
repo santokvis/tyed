@@ -18,6 +18,7 @@ import { MatIconModule} from '@angular/material/icon';
 import { ComicsComponent } from './comics/comics.component';
 import { CollectionsComponent } from './collections/collections.component';
 import { SearchComponent } from './search/search.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -42,6 +43,7 @@ import { SearchComponent } from './search/search.component';
     FormsModule,
     AppRoutingModule,
     MatIconModule,
+    HttpClientModule,
   ],
   // providers: [{provide: APP_BASE_HREF, useValue: '/tyed/docs'}],
   bootstrap: [AppComponent]
