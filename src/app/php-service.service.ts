@@ -16,7 +16,7 @@ constructor(private http: HttpClient) {}
 
   get(): Observable<any> {
     //this.http.get(this.url).subscribe((res:Response)=> console.log(res.json()));
-    return this.http.get('./web/test.php', {responseType: 'text'});
+    return this.http.get('/src/app/web/test.php', {responseType: 'text'});
   }
 
 handleError(error) {
