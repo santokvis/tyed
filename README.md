@@ -21,7 +21,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.  
-(use `ng deploy --base-href=/tyed/docs/` if needed)    
-1. use `ng build --prod --output-path=docs`
+(use `ng deploy --base-href=/tyed/project/` if needed)    
+1. use `ng build --prod --output-path=project`
 2. Push
 
