@@ -17,7 +17,7 @@ font-family: 'PottaOne', cursive;
 font-weight: bold;
 color: #edf2ef;
 text-align: center;
-width: 100px;
+min-width: 100px;
 height: 25px;
 padding-top: 10px;
 padding-bottom: 10px;
@@ -26,8 +26,9 @@ padding-right: 10px;
 float: left;
 }
 
-.menuIcon {
+.menuLink mat-icon {
 float: left;
+margin-right: 2px;
 }
 
 .logo {
