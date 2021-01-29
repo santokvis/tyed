@@ -19,6 +19,7 @@ import { ComicsComponent } from './comics/comics.component';
 import { CollectionsComponent } from './collections/collections.component';
 import { SearchComponent } from './search/search.component';
 import { HttpClientModule } from '@angular/common/http';
+import { AnimationsComponent } from './animations/animations.component';
 
 
 
@@ -36,7 +37,8 @@ import { HttpClientModule } from '@angular/common/http';
     DrawingsComponent,
     ComicsComponent,
     CollectionsComponent,
-    SearchComponent
+    SearchComponent,
+    AnimationsComponent
   ],
   imports: [
     BrowserModule,

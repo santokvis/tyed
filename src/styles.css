@@ -24,6 +24,10 @@ h2, h3 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
 }
+h2 {
+margin-bottom:55px;}
+
+
 body {
 margin: 0px;
 background-color: white;
@@ -74,7 +78,7 @@ margin-top: -3px;
 }
 
 h4 mat-icon {
-color: #e8df5a;
+color: green;
 float: left;
 padding-right: 2px;
 margin-top: -7px;
@@ -92,4 +96,8 @@ background-color: #cdfadb;
 font-size: 15px;
 color: #8c918d;
 margin-top: 25px;
+}
+
+h4 mat-icon {
+margin-top: -4px;
 }

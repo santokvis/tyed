@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { DrawingsComponent } from './drawings/drawings.component';
 import { ComicsComponent } from './comics/comics.component';
 import { SearchComponent } from './search/search.component';
+import { AnimationsComponent } from './animations/animations.component';
 
 const routes: Routes = [
 { path: 'drawings', component: DrawingsComponent },
@@ -16,6 +17,7 @@ const routes: Routes = [
 { path: 'invoice-exit', component: InvoiceexitComponent },
 { path: 'employees', component: EmployeesComponent },
 { path: 'invoices', component: InvoicesComponent },
+{ path: 'animations', component: AnimationsComponent },
 { path: 'web', component: WebComponent },
 { path: 'home', component: HomeComponent },
 { path: '**',   redirectTo: 'home', pathMatch: 'full' },
