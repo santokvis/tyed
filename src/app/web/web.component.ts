@@ -8,17 +8,22 @@ import {PhpServiceService} from '../php-service.service';
 })
 export class WebComponent implements OnInit {
 
-  data: any;
+  //data: any;
 
   constructor(private phpServiceService: PhpServiceService) { }
 
 
   ngOnInit(): void {
-  this.testPhp()
+  // this.invoiceDetails();
   }
-  testPhp():void {
-  this.phpServiceService.get().subscribe(data => console.log(data));
-  }
+  // testPhp():void {
+  //this.phpServiceService.get().subscribe(data => console.log(data));
+     // }
+
+        //invoiceDetails():void {
+       // this.phpServiceService.invoiceDetails().subscribe(data => console.log(data));
+          //  }
+
 }
 
 
